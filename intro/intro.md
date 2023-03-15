@@ -2,17 +2,9 @@
 
 ## About this Workshop
 
-This lab offers attendees an intro-level, hands-on session with Helidon and Verrazzano. You will learn how to make and assemble services and deploy them on an enterprise container platform.
-
-This is a BYOL (Bring Your Laptop) session, so bring your Windows, OSX, or Linux laptop. You will need JDK 11+, Apache Maven (3.6), and Docker installed before you begin.
-
-During this lab, you will install Helidon CLI tools and develop the HTTP microservice application. For Verrazzano, you will set up Oracle Kubernetes Engine (OKE) on Oracle Cloud Infrastructure using the Oracle Cloud Free Tier account. The Free Tier account is sufficient to explore and learn how to run and operate microservice applications on an enterprise level.
-
-The goal of this workshop is that you learn the basics of using Helidon and Verrazzano and understand how they can help you in your projects. If you want to learn more about the capabilities of these projects, then continue to explore using your Oracle Free Tier cloud account and Oracle Cloud Infrastructure.
+This lab shows you how to install the Verrazzano platform on a single Kubernetes cluster and deploy a sample tomcat application docker image using Verrazzano concepts.
 
 This workshop is designed to be as self-explanatory as possible, but feel free to ask for clarification or assistance along the way.
-
-> Provisioning the Oracle Kubernetes Engine (OKE) and installing Verrazzano can take several minutes. To save time, you will be asked to do your development and environment setup in parallel. Follow the instructions and switch between tasks when it is required and necessary.
 
 Estimated Time: 90 minutes
 
@@ -20,27 +12,19 @@ Estimated Time: 90 minutes
 
 * Set up your Oracle Cloud Free Tier account (if you haven't done so already).
 * Set up an Oracle Kubernetes Engine instance on the Oracle Cloud Infrastructure.
-* Install the Verrazzano platform.
-* Deploy the *Helidon MP* application.
-* Monitor the *Helidon MP* application using Verrazzano tools, including Kibana, Grafana and Prometheus.
+* Install the Verrazzano production profile.
+* Create sample tomcat application docker image.
+* Deploy tomcat application to OKE using Verrazzano.
+* Explore Grafana, Prometheus and OpenSearch Dashboard console.
 
 ### Prerequisites
-This lab assumes you have the following installed on your machine:
-* JDK 11+
-* Apache Maven (3.6)
-* Docker
 
+* You must have an [Oracle Cloud Infrastructure](https://cloud.oracle.com/en_US/cloud-infrastructure) enabled account.
 
-## About Helidon
+## About Tomcat
 
-Helidon is an open-source microservices framework introduced by Oracle that provides a collection of Java libraries designed for creating lightweight and fast microservices-based applications. The framework supports two programming models for writing microservices: Helidon SE and Helidon MP.
+Apache Tomcat is an open-source web server and servlet container that is widely used to deploy Java-based web applications. Tomcat is designed to be lightweight, efficient, and easy to use, and it provides a rich set of features for managing and deploying web applications. 
 
-While Helidon SE is designed to be a microframework that supports the reactive programming model, Helidon MP is an implementation of the MicroProfile specification. Since MicroProfile has its roots in Java EE, the MicroProfile APIs follow a familiar, declarative approach with heavy use of annotations. This makes it a good choice for Java EE developers.
-
-The MicroProfile features aim at the implementation of microservices. You can find APIs for defining REST Clients, monitoring the application, reading technical and functional statistics and configuring the application.
-Helidon has also added additional APIs to the core set of Microprofile APIs giving you all the capabilities you need for writing modern cloud-native applications.
-
-> The [MicroProfile](https://microprofile.io/) standard builds on Jakarta EE. Like Jakarta EE, MicroProfile is open source and is developed by the Eclipse Foundation. Implementation with MicroProfile takes place in the libraries or application servers implementing the standard, just like Jakarta EE.
 
 ## About Verrazzano
 
@@ -59,11 +43,11 @@ Verrazzano includes the following capabilities:
 
 ## Learn More
 
-* [https://helidon.io](https://helidon.io)
+* [https://tomcat.apache.org/](https://tomcat.apache.org/)
 * [https://verrazzano.io/](https://verrazzano.io/)
 
 ## Acknowledgements
 
 * **Author** -  Ankit Pandey
 * **Contributors** - Maciej Gruszka, Sid Joshi
-* **Last Updated By/Date** - Ankit Pandey, January 2023
+* **Last Updated By/Date** - Ankit Pandey, March 2023

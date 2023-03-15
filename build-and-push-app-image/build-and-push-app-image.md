@@ -19,7 +19,7 @@ Estimated Time: 10 minutes
 * Oracle Cloud Account
 
 
-## Task 1: Build the Helidon Application Docker Image
+## Task 1: Build the Tomcat Application Docker Image
 
 We'll start by preparing the Docker image that you will use to deploy on Verrazzano.
 
@@ -209,4 +209,4 @@ Enter the Username as follows: `NAMESPACE_OF_YOUR_TENANCY`/`YOUR_ORACLE_CLOUD_US
 
 * **Author** -  Ankit Pandey
 * **Contributors** - Maciej Gruszka, Sid Joshi
-* **Last Updated By/Date** - Ankit Pandey, January 2023
+* **Last Updated By/Date** - Ankit Pandey, March 2023

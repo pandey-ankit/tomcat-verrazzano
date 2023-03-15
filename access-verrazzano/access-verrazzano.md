@@ -46,11 +46,12 @@ Kiali is the user interface to Istio, and it is super simple to use. From the Ve
 In this lab, you will:
 
 * Explore the Rancher console.
+* Explore the Prometheus console.
 * Explore the Grafana console.
 * Explore the OpenSearch Dashboards.
-* Explore the Prometheus console.
-* Explore the Rancher console.
 * Explore the Kiali console.
+* Explore the Keycloak console.
+
 
 ### Prerequisites
 
@@ -290,4 +291,4 @@ Congratulations you have completed the Helidon application deployment on Verrazz
 
 * **Author** -  Ankit Pandey
 * **Contributors** - Maciej Gruszka, Sid Joshi
-* **Last Updated By/Date** - Ankit Pandey, January 2023
+* **Last Updated By/Date** - Ankit Pandey, March 2023
